@@ -1,5 +1,10 @@
 /*** For all devices: ***/
 
+menu-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* For header */
 header {
   display: flex;
@@ -8,19 +13,19 @@ header {
 
 @media only screen and (max-width: 415px) {
   /*** For iPhone 6: ***/
-  img {
+  .menu-item {
     width: 100%;
   }
 }
 @media only screen and (min-width: 415px) and (max-width: 1024px) {
   /*** For iPad: ***/
-  img {
+  .menu-item {
     width: 50%;
   }
 }
 @media only screen and (min-width: 1025px) {
   /*** For Laptop: ***/
-  img {
-    width: 33.3%;
+  .menu-item {
+    width: 30%;
   }
 }
